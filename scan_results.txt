@@ -1,0 +1,45 @@
+# Nmap 7.97 scan initiated Mon Aug  4 20:42:47 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN scan_results.txt 192.168.1.31/24
+Nmap scan report for 192.168.1.1
+Host is up (0.0039s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+23/tcp   closed telnet
+80/tcp   open   http
+1900/tcp open   upnp
+8080/tcp open   http-proxy
+MAC Address: 00:1A:9A:DE:AD:05 (Skyworth Digital Technology(Shenzhen))
+
+Nmap scan report for 192.168.1.24
+Host is up (0.014s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE
+1082/tcp open  amt-esd-prot
+1233/tcp open  univ-appserver
+3000/tcp open  ppp
+3001/tcp open  nessus
+7000/tcp open  afs3-fileserver
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+MAC Address: 38:06:E6:81:D1:34 (Arcadyan)
+
+Nmap scan report for 192.168.1.29
+Host is up (0.0023s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+8000/tcp open  http-alt
+8089/tcp open  unknown
+
+Nmap scan report for 192.168.1.31
+Host is up (0.0010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8000/tcp open  http-alt
+8089/tcp open  unknown
+
+# Nmap done at Mon Aug  4 20:43:08 2025 -- 256 IP addresses (4 hosts up) scanned in 20.65 seconds
